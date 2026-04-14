@@ -1,13 +1,14 @@
-import { useState } from 'react'
+
 
 import './App.css'
+import Equipe from './pages/equipe/Equipe'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      
+      <Equipe/>
     </>
   )
 }
