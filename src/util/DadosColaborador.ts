@@ -1,0 +1,58 @@
+import type Colaborador from "../models/Colaborador";
+
+export const Colaboradores: Colaborador[] = [
+    {
+        id: 1,
+        nome: "Marina Falcão",
+        dataNascimento: new Date("1995-03-11"),
+        cargo: "Coordenadora de Pessoas",
+        foto: "https://i.pravatar.cc/300?img=5",
+        salario: 6500,
+        dataAdimissao: new Date("2021-09-15"),
+    },
+    {
+        id: 2,
+        nome: "Thiago Martins",
+        dataNascimento: new Date("1998-07-22"),
+        cargo: "Assistente de Recrutamento",
+        foto: "https://i.pravatar.cc/300?img=12",
+        salario: 4200,
+        dataAdimissao: new Date("2023-02-01"),
+    },
+    {
+        id: 3,
+        nome: "Juliana Prado",
+        dataNascimento: new Date("1997-01-05"),
+        cargo: "Especialista em Benefícios",
+        foto: "https://i.pravatar.cc/300?img=9",
+        salario: 4100,
+        dataAdimissao: new Date("2022-08-10"),
+    },
+    {
+        id: 4,
+        nome: "Rafael Nunes",
+        dataNascimento: new Date("1996-11-30"),
+        cargo: "Analista de Treinamento",
+        foto: "https://i.pravatar.cc/300?img=13",
+        salario: 4300,
+        dataAdimissao: new Date("2022-05-18"),
+    },
+    {
+        id: 5,
+        nome: "Patrícia Azevedo",
+        dataNascimento: new Date("1994-04-14"),
+        cargo: "Analista de Folha",
+        foto: "https://i.pravatar.cc/300?img=32",
+        salario: 4400,
+        dataAdimissao: new Date("2020-10-21"),
+    },
+    {
+        id: 6,
+        nome: "Eduardo Barros",
+        dataNascimento: new Date("1999-12-09"),
+        cargo: "Auxiliar Administrativo",
+        foto: "https://i.pravatar.cc/300?img=18",
+        salario: 4050,
+        dataAdimissao: new Date("2024-01-08"),
+    },
+];

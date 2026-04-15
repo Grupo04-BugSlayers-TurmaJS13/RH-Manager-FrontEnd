@@ -1,14 +1,20 @@
-import { Footer } from "./components/Footer";
-import { Navbar } from "./components/Navbar";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import './App.css'
+import Home from './page/home/Home'
+import Sobre from './page/sobre/Sobre';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar />
-      <main className="pt-16 flex-1"></main>
-      <Footer />
-    </div>
-  );
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path='/sobre' element={<Sobre/>}/>
+        </Routes>
+      </BrowserRouter>
+    </>
+  )
+
 }
 
 export default App;
