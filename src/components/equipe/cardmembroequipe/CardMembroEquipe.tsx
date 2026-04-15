@@ -13,7 +13,7 @@ function CardMembroEquipe({ membroEquipe }: CardMembroEquipeProps) {
           <img
             src={membroEquipe.foto}
             alt="Foto do membro da equipe"
-            className="h-2/3 p-4 rounded-full"
+            className="h-2/3 max-h-36 p-4 rounded-full"
           />
         </div>
       </div>

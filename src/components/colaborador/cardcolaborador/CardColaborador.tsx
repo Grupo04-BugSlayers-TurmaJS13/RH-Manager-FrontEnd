@@ -17,12 +17,12 @@ function CardColaborador({ colaborador }: CardColaboradorProps) {
         />
 
         <div className="px-4 py-2 flex flex-col items-center justify-center gap-1">
-          <h4 className="text-lg text-purple-700 font-semibold uppercase">
+          <h4 className="text-lg  font-semibold uppercase">
             {colaborador.nome}
           </h4>
-          <p className="text-purple-700">{colaborador.cargo}</p>
+          <p className="">{colaborador.cargo}</p>
 
-          <p className="text-purple-700">
+          <p className="">
             Data de Adimissão:{" "}
             {new Intl.DateTimeFormat("pt-BR", {
               dateStyle: "short",
