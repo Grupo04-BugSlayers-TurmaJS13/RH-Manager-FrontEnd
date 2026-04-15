@@ -38,7 +38,7 @@ export const MembrosEquipe: MembroEquipe[] = [
 		id: 5,
 		nome: "Leonardo Botelho",
 		cargo: "Analista RH",
-		foto: "https://ik.imagekit.io/bugslayers/fotos%20de%20membros%20do%20grupo/image.png",
+		foto: "https://ik.imagekit.io/bugslayers/fotos%20de%20membros%20do%20grupo/image.png?updatedAt=1776270214397",
 		linkedin: "https://www.linkedin.com/in/leonardo-botelho-b29061174",
 		github: "https://github.com/Botelhool",
 	},

@@ -33,7 +33,7 @@ function Home() {
                         </p>
 
                         <div className="flex gap-4 mt-1">
-                            <Link to="" className="flex justify-center text-sm items-center text-center
+                            <Link to="/sobre" className="flex justify-center text-sm items-center text-center
                         bg-yellow text-purple font-bold rounded-lg w-30 h-10 
                         hover:bg-yellow-dark transition-colors hover:text-white ">
                                 Saiba Mais

@@ -4,6 +4,7 @@ import Home from './page/home/Home'
 import Sobre from './page/sobre/Sobre';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import ListarColaboradores from './component/colaborador/listarColaboradores/ListarColaboradores';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<Home />} />
            <Route path="/home" element={<Home />} />
           <Route path='/sobre' element={<Sobre/>}/>
+          <Route path='/colaboradores' element={<ListarColaboradores/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

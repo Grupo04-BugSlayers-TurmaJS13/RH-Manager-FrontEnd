@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { UserCircle, Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 function Logo() {
   return (
@@ -22,16 +23,19 @@ export function Navbar() {
     <>
       <header className="fixed top-0 left-0 right-0 z-50 bg-custom-beige shadow-md">
         <div className="w-full px-6 h-16 flex items-center justify-between">
-          <a href="#" className="flex items-center gap-3">
+          <Link to="/home" className="flex items-center gap-3">
             <Logo />
             {/* <div className="leading-tight">
               <div className="text-gray-800 font-Regular text-base tracking-wide">
                 RH Manager
               </div> */}
             {/* </div> */}
-          </a>
+          </Link>
+          
           <nav className="hidden md:flex items-center gap-6">
+            <Link to="/colaboradores">
             {NAV_LINKS.map((link) => (
+              
               <a
                 key={link.label}
                 href={link.href}
@@ -40,7 +44,7 @@ export function Navbar() {
                 {link.label}
               </a>
             ))}
-
+            </Link>
             <button
               aria-label="Perfil do usuário"
               className="text-gray-800 hover:text-purple transition-colors ml-2"
@@ -48,6 +52,7 @@ export function Navbar() {
               <UserCircle size={28} strokeWidth={1.5} />
             </button>
           </nav>
+          
           {/* adaptabilidade pro mobile aqui */}
           <button
             className="md:hidden text-white"
@@ -59,6 +64,7 @@ export function Navbar() {
         </div>
       </header>
       {open && (
+        
         <div className="fixed top-16 left-0 right-0 z-40 bg-purple-dark px-6 py-4 flex flex-col gap-3 shadow-lg md:hidden">
           {NAV_LINKS.map((link) => (
             <a
@@ -75,6 +81,7 @@ export function Navbar() {
             <span>Minha Conta</span>
           </div>
         </div>
+        
       )}
     </>
   );
