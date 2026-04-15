@@ -29,7 +29,6 @@ function CardMembroEquipe({ membroEquipe }: CardMembroEquipeProps) {
           className="hover:drop-shadow-2xl hover:drop-shadow-purple-900 hover:text-purple">
           <LinkedinLogoIcon size={35} />
           </a>
-          
           <a href={membroEquipe.github} target="_blank" rel="noreferrer"
           className="hover:drop-shadow-2xl hover:drop-shadow-purple-900 hover:text-purple">
           <GithubLogoIcon size={35} />
