@@ -20,7 +20,7 @@ export function Footer() {
           <div className="flex items-center gap-3">
             <Logo />
             <div className="leading-tight">
-              <div className="text-white font-extrabold text-base tracking-wide">
+              <div className="text-white  text-base tracking-wide">
                 RH MANAGER
               </div>
               <div className="text-white/60 text-xs">
@@ -31,7 +31,7 @@ export function Footer() {
           <nav className="flex items-center gap-6">
             <a
               href="#colaboradores"
-              className="text-white/70 hover:text-white text-sm font-semibold tracking-widest uppercase transition-colors"
+              className="text-white/70 hover:text-white text-sm font-regular uppercase transition-colors"
             >
               Colaboradores
             </a>

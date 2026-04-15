@@ -12,14 +12,14 @@ function Sobre() {
   return (
     <>
         <section className="max-w-[80vw] m-auto">
-          <article className="flex flex-col justify-center py-20">
+          <article className="flex flex-col justify-center py-30">
               <figure className="flex justify-center items-center">
                   <img src={logorh} alt="logo-rh" className=" w-70"/>
               </figure>
 
               <div className="flex-col text-center ">
-                <h1 className="text-4xl text-purple font-bold uppercase">Sobre nós</h1>
-                <p className="w-3xl m-auto text-gray-800 mt-3">
+                <h1 className="text-3xl text-purple font-bold uppercase my-15">Sobre nós</h1>
+                <p className="w-3xl m-auto text-gray-800 mt-3 ">
                   Gestão de RH simples, com resultados reais. 
                   Conectamos pessoas e oportunidades de forma rápida, inteligente e eficiente, reduzindo a burocracia e ampliando a estratégia. 
                   Utilizamos tecnologia para facilitar o dia a dia e apoiar decisões mais assertivas, 
@@ -27,15 +27,16 @@ function Sobre() {
 
                 </p>
               </div>
-              <div className="flex flex-col justify-center items-center pt-20">
-                <h2 className="text-4xl text-purple font-bold uppercase pb-6">Tecnologias </h2>
+
+              <div className="flex flex-col justify-center items-center pt-20 ">
+                <h2 className="text-3xl text-purple font-bold uppercase pb-6">Tecnologias </h2>
               
-              <div className="flex p-6 justify-between gap-6">
+              <div className="flex  justify-between gap-15 mt-10 ">
 
                 
-                <p className="flex flex-col items-center  text-gray-700"><FaReact size={60}/>React</p>
-                <p className="flex flex-col items-center text-gray-700"><BsTypescript size={60}/>Typescript</p>
-                <p className="flex flex-col items-center text-gray-700"><SiNestjs size={60}/>Nest</p>
+                <p className="flex flex-col items-center  text-gray-800"><FaReact size={60}/>React</p>
+                <p className="flex flex-col items-center text-gray-800"><BsTypescript size={60}/>Typescript</p>
+                <p className="flex flex-col items-center text-gray-800"><SiNestjs size={60}/>Nest</p>
               </div>
 
               </div>
@@ -49,6 +50,7 @@ function Sobre() {
               <ListarEquipe/>
             
         </section>
+   
     </>
   )
 }

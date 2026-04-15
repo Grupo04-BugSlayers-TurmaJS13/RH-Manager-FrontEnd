@@ -6,8 +6,8 @@ function Logo() {
     <img
       src="/logo.png"
       alt="RH Manager"
-      width={42}
-      height={42}
+      width={65}
+      height={45}
       className="object-contain"
     />
   );
@@ -20,22 +20,22 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-purple shadow-md">
+      <header className="fixed top-0 left-0 right-0 z-50 bg-custom-beige shadow-md">
         <div className="w-full px-6 h-16 flex items-center justify-between">
           <a href="#" className="flex items-center gap-3">
             <Logo />
-            <div className="leading-tight">
-              <div className="text-white font-extrabold text-base tracking-wide">
+            {/* <div className="leading-tight">
+              <div className="text-gray-800 font-Regular text-base tracking-wide">
                 RH Manager
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </a>
           <nav className="hidden md:flex items-center gap-6">
             {NAV_LINKS.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
-                className="text-white/80 hover:text-white text-sm font-semibold tracking-widest uppercase transition-colors"
+                className="text-gray-800 hover:text-purple text-sm font-regular uppercase transition-colors"
               >
                 {link.label}
               </a>
@@ -43,7 +43,7 @@ export function Navbar() {
 
             <button
               aria-label="Perfil do usuário"
-              className="text-white/80 hover:text-white transition-colors ml-2"
+              className="text-gray-800 hover:text-purple transition-colors ml-2"
             >
               <UserCircle size={28} strokeWidth={1.5} />
             </button>

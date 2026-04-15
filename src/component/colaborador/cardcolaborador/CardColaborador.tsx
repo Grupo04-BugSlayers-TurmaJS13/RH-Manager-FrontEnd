@@ -9,7 +9,7 @@ function CardColaborador({ colaborador }: CardColaboradorProps) {
     <div
       className={"border-slate-900 border flex flex-col rounded overflow-hidden justify-center min-h-[25vh]  bg-white "}
     >
-      <div className="flex flex-col justify-center items-center gap-2">
+      <div className="flex flex-col justify-center items-center gap-2 py-10">
         <img
           src={colaborador.foto}
           alt="Foto do Colaborador"
@@ -22,7 +22,7 @@ function CardColaborador({ colaborador }: CardColaboradorProps) {
           </h4>
           <p className="">{colaborador.cargo}</p>
 
-          <p className="">
+          <p className="font-light text-sm text-gray-600">
             Data de Adimissão:{" "}
             {new Intl.DateTimeFormat("pt-BR", {
               dateStyle: "short",
@@ -31,7 +31,7 @@ function CardColaborador({ colaborador }: CardColaboradorProps) {
           </p>
         </div>
 
-        <div className="text-black bg-amber-400 hover:bg-amber-700 min-w-30 rounded-md flex items-center justify-center h-8">
+        <div className="text-black bg-yellow hover:bg-yellow-dark hover:text-white min-w-30 rounded-md flex items-center justify-center h-8">
           <button>Gerenciar</button>
         </div>
       </div>

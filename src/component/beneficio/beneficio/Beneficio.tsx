@@ -8,31 +8,31 @@ function Beneficios() {
             titulo: "Aumento de Produtividade",
             descricao:
                 "Automatize processos e reduza tarefas manuais no dia a dia.",
-            icone: <FaRobot size={40} />,
+            icone: <FaRobot size={40} className="text-yellow" />,
         },
         {
             titulo: "Economia de Tempo",
             descricao:
                 "Centralize informações e ganhe agilidade nas operações de RH.",
-            icone: <FaClock size={40} />,
+            icone: <FaClock size={40} className="text-yellow" />,
         },
         {
             titulo: "Segurança de Dados",
             descricao:
                 "Mantenha as informações organizadas e protegidas.",
-            icone: <FaShield size={40} />,
+            icone: <FaShield size={40} className="text-yellow" />,
         },
         {
             titulo: "Melhor Gestão de Pessoas",
             descricao:
                 "Acompanhe colaboradores e tome decisões mais estratégicas.",
-            icone: <FaUser size={40} />,
+            icone: <FaUser size={40} className="text-yellow" />,
         },
         {
             titulo: "Informação Centralizada",
             descricao:
                 "Todos os dados importantes em um único lugar.",
-            icone: <FaDatabase size={40} />,
+            icone: <FaDatabase size={40} className="text-yellow"/>,
         },
     ];
 
@@ -41,7 +41,7 @@ function Beneficios() {
             <div className="container mx-auto px-6">
 
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl text-purple font-bold uppercase">
+                    <h2 className="text-3xl text-purple font-bold uppercase">
                         Benefícios
                     </h2>
                     <p className="text-gray-500 mt-3">

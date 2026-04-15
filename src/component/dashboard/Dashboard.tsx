@@ -6,7 +6,7 @@ function Dashboard() {
             <div className="container mx-auto px-6">
 
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl text-purple font-bold uppercase">
+                    <h2 className="text-3xl text-purple font-bold uppercase">
                         Visão do Sistema
                     </h2>
                     <p className="text-gray-500 mt-3">

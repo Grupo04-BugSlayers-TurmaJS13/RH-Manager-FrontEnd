@@ -3,13 +3,13 @@
 @theme {
   --font-sans: "Inter", system-ui, sans-serif;
 
-  --color-purple: #6b2d8b;
+  --color-purple: #79397d;
   --color-purple-dark: #531f6e;
   --color-purple-light: #f3eaf9;
   --color-purple-muted: #e8daf3;
   --color-custom-beige: #edede0;
 
-  --color-yellow: #f0b429;
+  --color-yellow: #fcc64d;
   --color-yellow-dark: #d99b10;
   --color-yellow-light: #fefce8;
 
@@ -40,7 +40,7 @@ html {
 
 body {
   font-family: var(--font-sans);
-  background-color: #edede0;
+  /* background-color: #edede0; */
   color: #111827;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;

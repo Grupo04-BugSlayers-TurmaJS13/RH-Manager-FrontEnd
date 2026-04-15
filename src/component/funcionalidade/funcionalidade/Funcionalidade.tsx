@@ -8,40 +8,40 @@ function Funcionalidades() {
             titulo: "Gestão de Colaboradores",
             descricao:
                 "Cadastre, edite e gerencie todos os colaboradores em um só lugar.",
-            icone: <FaUser size={40} />,
+            icone: <FaUser size={40} className="text-yellow" />,
         },
         {
             titulo: "Admissões e Demissões",
             descricao:
                 "Controle completo dos processos de entrada e saída de funcionários.",
-            icone: <FaFile size={40} />,
+            icone: <FaFile size={40} className="text-yellow"/>,
         },
         {
             titulo: "Relatórios Inteligentes",
             descricao:
                 "Visualize métricas importantes e tome decisões estratégicas.",
-            icone: <FaChartBar size={40} />,
+            icone: <FaChartBar size={40} className="text-yellow" />,
         },
         {
             titulo: "Controle de Férias",
             descricao:
                 "Gerencie períodos de férias com organização e praticidade.",
-            icone: <FaCalendar size={40} />,
+            icone: <FaCalendar size={40} className="text-yellow"/>,
         },
         {
             titulo: "Cargos e Salários",
             descricao:
                 "Organize cargos, salários e a estrutura da empresa facilmente.",
-            icone: <FaBriefcase size={40} />,
+            icone: <FaBriefcase size={40} className="text-yellow" />,
         },
     ];
 
     return (
-        <section className="w-full py-20">
+        <section className="w-full py-15">
             <div className="container mx-auto px-6">
 
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl text-purple font-bold uppercase">
+                    <h2 className="text-3xl text-purple font-bold uppercase">
                         Funcionalidades
                     </h2>
                     <p className="text-gray-500 mt-3">

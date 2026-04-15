@@ -20,7 +20,7 @@ function CardMembroEquipe({ membroEquipe }: CardMembroEquipeProps) {
 
       <div className="col-span-2 p-4 flex flex-col  justify-center">
         <div>
-          <h4 className="text-lg uppercase">{membroEquipe.nome}</h4>
+          <h4 className="text-lg uppercase font-bold ">{membroEquipe.nome}</h4>
           <p>{membroEquipe.cargo}</p>
         </div>
 
