@@ -1,15 +1,13 @@
-import Sobre from "./pages/sobre/Sobre";
-
+import { Footer } from "./components/Footer";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
-  <>
-    <div className="App">
-      
-      <Sobre/>
-      
+    <div className="min-h-screen flex flex-col">
+      <Navbar />
+      <main className="pt-16 flex-1"></main>
+      <Footer />
     </div>
-  </>
   );
 }
 
