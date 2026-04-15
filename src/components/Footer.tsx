@@ -1,4 +1,6 @@
 import { ArrowUp } from "lucide-react";
+import { Link } from "react-router-dom";
+import React from "react";
 
 function Logo() {
   return (
@@ -29,12 +31,12 @@ export function Footer() {
             </div>
           </div>
           <nav className="flex items-center gap-6">
-            <a
-              href="#colaboradores"
-              className="text-white/70 hover:text-white text-sm font-regular uppercase transition-colors"
+            <Link
+              to="#colaboradores"
+              className="text-white/70 hover:text-[#c5a16f] text-sm font-regular uppercase tracking-widest transition-colors"
             >
               Colaboradores
-            </a>
+            </Link>
           </nav>
           <button
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}

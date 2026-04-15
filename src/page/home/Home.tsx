@@ -12,20 +12,20 @@ function Home() {
                     <div className="flex flex-col gap-5 text-custom-beige p-10">
 
                         <div className="flex flex-col gap-1">
-                            <h1 className="text-5xl font-bold text-yellow tracking-tight">RH</h1>
-                            <span className="text-5xl font-bold text-custom-beige tracking-tight">Manager</span>
+                            <h1 className="text-5xl font-bold text-[#c5a16f] tracking-widest uppercase">RH</h1>
+                            <span className="text-5xl font-bold text-[#c5a16f] tracking-widest uppercase">MANAGER</span>
                         </div>
 
-                        <div className="w-16 h-1 bg-yellow rounded-full" />
+                        <div className="w-16 h-1 bg-[#c5a16f] rounded-full" />
 
                         <p className="text-lg leading-relaxed text-custom-beige max-w-md">
-                            Otimize <span className="text-yellow font-medium">processos</span>, valorize{" "}
-                            <span className="text-yellow font-medium">talentos</span> e impulsione{" "}
-                            <span className="text-yellow font-medium">resultados</span>.
-                            Gestão de RH <span className="text-yellow font-medium">simples</span> e{" "}
-                            <span className="text-yellow font-medium">eficiente</span>,
+                            Otimize <span className="text-[#c5a16f] font-medium tracking-widest uppercase">processos</span>, valorize{" "}
+                            <span className="text-[#c5a16f] font-medium tracking-widest uppercase">talentos</span> e impulsione{" "}
+                            <span className="text-[#c5a16f] font-medium tracking-widest uppercase">resultados</span>.
+                            Gestão de RH <span className="text-[#c5a16f] font-medium tracking-widest uppercase">simples</span> e{" "}
+                            <span className="text-[#c5a16f] font-medium tracking-widest uppercase">eficiente</span>,
                             focada no que realmente importa:{" "}
-                            <span className="text-yellow font-medium">pessoas</span>!
+                            <span className="text-[#c5a16f] font-medium tracking-widest uppercase">pessoas</span>!
                         </p>
 
                         <p className="text-base text-custom-beige">
@@ -33,14 +33,14 @@ function Home() {
                         </p>
 
                         <div className="flex gap-4 mt-1">
-                            <Link to="/sobre" className="flex justify-center text-sm items-center text-center
-                        bg-yellow text-purple font-bold rounded-lg w-30 h-10 
-                        hover:bg-yellow-dark transition-colors hover:text-white ">
+                            <Link to="/sobre" className="flex justify-center text-sm items-center text-center uppercase tracking-widest
+                        bg-[#c5a16f] text-white font-bold rounded-lg w-30 h-10 
+                        hover:bg-[#c5a16f]/90 transition-colors ">
                                 Saiba Mais
                             </Link>
-                            <Link to="" className="flex justify-center text-sm items-center text-center w-30 h-10 
-                        border-2 border-custom-beige text-custom-beige font-semibold
-                        rounded-lg hover:bg-custom-beige hover:text-purple transition-colors">
+                            <Link to="/login" className="flex justify-center text-sm items-center text-center uppercase tracking-widest w-30 h-10 
+                        border-2 border-[#c5a16f] text-[#c5a16f] font-semibold
+                        rounded-lg hover:bg-[#c5a16f] hover:text-white transition-colors">
                                 Entrar
                             </Link>
                         </div>
@@ -51,8 +51,7 @@ function Home() {
                         <img
                             src={imgHome}
                             alt="Imagem Página Home"
-                            className="w-70 h-70 md:w-95 md:h-95  
-                             text-custom-beige"
+                            className="w-full max-w-md aspect-[3/2] object-cover rounded-2xl shadow-2xl"
                         />
                     </figure>
 

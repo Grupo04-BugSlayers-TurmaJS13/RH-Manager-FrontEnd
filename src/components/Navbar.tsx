@@ -25,29 +25,21 @@ export function Navbar() {
         <div className="w-full px-6 h-16 flex items-center justify-between">
           <Link to="/home" className="flex items-center gap-3">
             <Logo />
-            {/* <div className="leading-tight">
-              <div className="text-gray-800 font-Regular text-base tracking-wide">
-                RH Manager
-              </div> */}
-            {/* </div> */}
           </Link>
           
           <nav className="hidden md:flex items-center gap-6">
-            <Link to="/colaboradores">
             {NAV_LINKS.map((link) => (
-              
-              <a
+              <Link
                 key={link.label}
-                href={link.href}
-                className="text-gray-800 hover:text-purple text-sm font-regular uppercase transition-colors"
+                to={link.href}
+                className="text-gray-800 hover:text-[#c5a16f] text-sm font-regular uppercase tracking-widest transition-colors"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
-            </Link>
             <button
               aria-label="Perfil do usuário"
-              className="text-gray-800 hover:text-purple transition-colors ml-2"
+              className="text-gray-800 hover:text-[#c5a16f] transition-colors ml-2"
             >
               <UserCircle size={28} strokeWidth={1.5} />
             </button>
@@ -67,14 +59,14 @@ export function Navbar() {
         
         <div className="fixed top-16 left-0 right-0 z-40 bg-purple-dark px-6 py-4 flex flex-col gap-3 shadow-lg md:hidden">
           {NAV_LINKS.map((link) => (
-            <a
+            <Link
               key={link.label}
-              href={link.href}
+              to={link.href}
               onClick={() => setOpen(false)}
-              className="text-white/80 hover:text-white text-sm font-semibold uppercase tracking-widest py-2 border-b border-white/10"
+              className="text-white/80 hover:text-white text-sm font-semibold uppercase tracking-widest py-2 border-b border-white/10 hover:border-[#c5a16f]"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
           <div className="flex items-center gap-2 pt-2 text-white/70 text-sm">
             <UserCircle size={22} strokeWidth={1.5} />

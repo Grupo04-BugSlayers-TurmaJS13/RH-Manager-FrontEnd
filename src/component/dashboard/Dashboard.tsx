@@ -16,23 +16,24 @@ function Dashboard() {
 
                 <div className="bg-white rounded-2xl shadow-lg p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
 
-                    <div className="bg-custom-beige p-6 rounded">
-                        <h3 className="text-sm text-gray-500">Colaboradores</h3>
-                        <p className="text-3xl font-bold mt-2">128</p>
+                    <div className="bg-gradient-to-r from-[#c5a16f]/10 to-amber-50 border border-[#c5a16f]/20 p-6 rounded-lg hover:shadow-md transition-all">
+                        <h3 className="text-sm text-gray-500 font-semibold tracking-widest uppercase text-xs">Colaboradores</h3>
+                        <p className="text-3xl font-bold mt-2 text-[#c5a16f]">128</p>
                     </div>
 
-                    <div className="bg-custom-beige p-6 rounded">
-                        <h3 className="text-sm text-gray-500">Férias Ativas</h3>
-                        <p className="text-3xl font-bold mt-2">12</p>
+                    <div className="bg-gradient-to-r from-[#c5a16f]/10 to-amber-50 border border-[#c5a16f]/20 p-6 rounded-lg hover:shadow-md transition-all">
+                        <h3 className="text-sm text-gray-500 font-semibold tracking-widest uppercase text-xs">Férias Ativas</h3>
+                        <p className="text-3xl font-bold mt-2 text-[#c5a16f]">12</p>
                     </div>
 
-                    <div className="bg-custom-beige p-6 rounded">
-                        <h3 className="text-sm text-gray-500">Novas Contratações</h3>
-                        <p className="text-3xl font-bold mt-2">5</p>
+                    <div className="bg-gradient-to-r from-[#c5a16f]/10 to-amber-50 border border-[#c5a16f]/20 p-6 rounded-lg hover:shadow-md transition-all">
+                        <h3 className="text-sm text-gray-500 font-semibold tracking-widest uppercase text-xs">Novas Contratações</h3>
+                        <p className="text-3xl font-bold mt-2 text-[#c5a16f]">5</p>
                     </div>
 
-                    <div className="col-span-1 md:col-span-3 bg-custom-beige p-6 rounded">
-                        <h3 className="text-sm text-gray-500 mb-4">Atividade recente</h3>
+                    <div className="col-span-1 md:col-span-3 bg-amber-50 border-l-4 border-[#c5a16f] p-6 rounded-lg">
+                        <h3 className="text-sm text-gray-500 mb-4 font-semibold tracking-widest uppercase text-xs">Atividade Recente</h3>
+                        <p className="text-xs text-gray-400 italic mb-4 col-span-full">*Dados Fictícios para Demonstração (Compliance LGPD)</p>
 
                         <ul className="space-y-2 text-sm text-gray-600">
                             <li className="flex gap-2"><FaCheck size={18}/> Novo colaborador cadastrado</li>
