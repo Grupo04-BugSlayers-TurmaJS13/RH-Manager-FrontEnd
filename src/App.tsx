@@ -1,14 +1,17 @@
 
 
 import './App.css'
-import Equipe from './pages/equipe/Equipe'
+import ListarColaboradores from './components/colaborador/listarColaboradores/ListarColaboradores'
+import ListarEquipe from './components/equipe/listarequipe/ListarEquipe'
+
 
 function App() {
   
 
   return (
     <>
-      <Equipe/>
+      <ListarEquipe/>
+      <ListarColaboradores/>
     </>
   )
 }

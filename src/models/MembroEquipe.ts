@@ -1,5 +1,3 @@
-
-
 export default interface MembroEquipe {
   id: number;
   cargo: string;

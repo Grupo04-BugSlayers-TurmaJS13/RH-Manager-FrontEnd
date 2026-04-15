@@ -1,5 +1,5 @@
 import { GithubLogoIcon, LinkedinLogoIcon } from "@phosphor-icons/react";
-import type MembroEquipe from "../../models/MembroEquipe";
+import type MembroEquipe from "../../../models/MembroEquipe";
 
 interface CardMembroEquipeProps {
   membroEquipe: MembroEquipe;
