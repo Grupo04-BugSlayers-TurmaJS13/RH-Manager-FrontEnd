@@ -30,7 +30,7 @@ export const MembrosEquipe: MembroEquipe[] = [
 		id:4,
 		nome: "Gabriela Almeida",
 		cargo: "Analista RH",
-		foto: "https://ik.imagekit.io/bugslayers/fotos%20de%20membros%20do%20grupo/gabriela.jpeg",
+		foto: "https://ik.imagekit.io/bugslayers/fotos%20de%20membros%20do%20grupo/gabriela.png",
 		linkedin: "https://www.linkedin.com/in/gabriela-almeida-escalera-dos-santos-27022b3a0",
 		github: "https://github.com/Gaalmeida-dev",
 	},
