@@ -1,15 +1,16 @@
-import { useState } from 'react'
+import Sobre from "./pages/sobre/Sobre";
 
-import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
+  <>
+    <div className="App">
       
-    </>
-  )
+      <Sobre/>
+      
+    </div>
+  </>
+  );
 }
 
-export default App
+export default App;
