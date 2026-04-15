@@ -57,6 +57,6 @@ button {
   font: inherit;
 }
 img {
-  display: block;
-  max-width: 100%;
+ /* display: block;
+  max-width: 100%;*/
 }

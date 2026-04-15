@@ -25,11 +25,14 @@ function CardMembroEquipe({ membroEquipe }: CardMembroEquipeProps) {
         </div>
 
         <div className="flex gap-2 mt-3">
-          <a href={membroEquipe.linkedin} target="_blank" rel="noreferrer">
-          <LinkedinLogoIcon size={48} />
+          <a href={membroEquipe.linkedin} target="_blank" rel="noreferrer" 
+          className="hover:drop-shadow-2xl hover:drop-shadow-purple-900 hover:text-purple">
+          <LinkedinLogoIcon size={35} />
           </a>
-          <a href={membroEquipe.github} target="_blank" rel="noreferrer">
-          <GithubLogoIcon size={48} />
+          
+          <a href={membroEquipe.github} target="_blank" rel="noreferrer"
+          className="hover:drop-shadow-2xl hover:drop-shadow-purple-900 hover:text-purple">
+          <GithubLogoIcon size={35} />
           </a>
         </div>
       </div>
