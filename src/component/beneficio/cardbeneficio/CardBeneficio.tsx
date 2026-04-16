@@ -15,7 +15,7 @@ function CardBeneficio({
         <div className="bg-custom-beige grid grid-cols-3 rounded overflow-hidden hover:scale-[1.02] hover:shadow-lg transition duration-300">
 
             <div className="col-span-1 flex justify-center items-center">
-                <div className="text-green-500">{icone}</div>
+                {icone}
             </div>
 
             <div className="col-span-2 p-4 flex flex-col justify-center">
